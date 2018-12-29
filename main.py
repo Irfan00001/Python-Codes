@@ -23,8 +23,8 @@ print("The Songs Time Duration in Munites : "+str(Duration))
 print("--------------------------------------------------")
 
 #Micheal Jackson
-Artist="They Don't Care About Us"
-Album="Michael Jackson"
+Artist="Michael Jackson"
+Album="They Don't Care About Us"
 Writers="Michael Jackson"
 Duration=4.9
 print("SingerName : "+Artist)
