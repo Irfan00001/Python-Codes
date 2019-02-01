@@ -1,26 +1,35 @@
 #Function for Songs
 #Below are the functions created for each details as shown below
+artist="Micheal"
+album="They Don't Care About Us"
+year="ISN"
+
+
 def Artist():
-    name="Michael Jackson"
-    return name
-def Album():
-    name="They Don't Care About Us"
-    return name
-def Writers():
-    name="Michael Jackson"
-    return name
-def Duration():
-    name=4.9
-    return name
+    try:
+        artistname=artist
+    except:
+        print("Not A String")
+    return artistname
+
+def Year():
+    try:
+        year=int(year)
+    except Exception as e:
+        print("Error Logged : ",e)
+
 
 #Calling each function and storing it in a Variable for further use
 artistname=Artist()
-albumname=Album()
-writername=Writers()
-duration=Duration()
+yearint=Year()
+
 
 #Printing the data wich we get from the functionations
-print(artistname)
-print(albumname)
-print(writername)
-print(duration)
+try:
+    print(artistname)
+    print(yearint)
+    print(asdfepo)## Printing some Incorrect Data
+except SyntaxError:
+    print("SyntaxError")
+except Exception as e:
+    print("Something Wrong with the Print Code")
